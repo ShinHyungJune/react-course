@@ -1,9 +1,10 @@
 import React from 'react';
+import Favorites from './Favorites';
 
 function App() {
 	return (
 		<div className="App">
-			<Example />
+			<Favorites />
 		</div>
 	);
 }
