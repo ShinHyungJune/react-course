@@ -1,11 +1,16 @@
 import React from 'react';
-import Parent from './Parent';
+import {Provider} from 'react-redux';
+import store from './store';
+import Example from './Example';
+import Other from './Other';
 
 function App() {
+
 	return (
-		<div className="App">
-			<Parent/>
-		</div>
+		<Provider store={store}>
+			<Example />
+			<Other />
+		</Provider>
 	);
 }
 
