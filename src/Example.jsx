@@ -1,29 +1,11 @@
-import React, {} from 'react';
-import {connect} from "react-redux";
-import {setFlash} from "./actions/commonActions";
+import React, {Component} from 'react';
 
-const Example = ({flash, setFlash}) => {
+const Example = () => {
 	return (
 		<div>
-			Example: {flash}
-			
-			<button onClick={() => setFlash("변경된 메세지")}>메세지 전달</button>
+			아무나 들어올 수 있는 페이지입니다.
 		</div>
 	);
 };
 
-const mapStateToProps = (state) => {
-	return {
-		flash: state.common.flash
-	}
-};
-
-const mapDispatchToProps = (dispatch) => {
-	return {
-		setFlash: (data) => {
-			dispatch(setFlash(data))
-		}
-	}
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(Example);
+export default Example;

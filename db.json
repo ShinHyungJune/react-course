@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "email": "ssa4141@naver.com",
+      "password": "$2a$10$cxNuFvPfWcMK60Xw9Uh.2ODRQxgbbfhBan0W.mDkvMHZI3iKojjPO",
+      "id": 1
+    },
+    {
+      "email": "ssagudwns@naver.com",
+      "password": "$2a$10$pj2b2PjaZ7gWl9BE5LTP1.HNcbPbrQrw29PL8YFkGNRw6mZdwWOsK",
+      "id": 2
+    },
+    {
+      "email": "sas@naver.com",
+      "password": "$2a$10$ag1gWXT/S8j1YeNKTlgxzeVCysOu0Pom4oFm4XZyWvndm86K9kmqa",
+      "id": 3
+    },
+    {
+      "email": "123123@naver.com",
+      "password": "$2a$10$r7QioVUz.P76s42SUnkALe4Ih4YnpcCGmUs7pKimoRJnkkUa2lZMW",
+      "id": 4
+    },
+    {
+      "email": "12@naver.com",
+      "password": "$2a$10$1eJi2dqwLslU2j2/xRdNCu.HWc91CGajbJuP/gffkOWkA3vp./3em",
+      "id": 5
+    },
+    {
+      "email": "2131231232@naver.com",
+      "password": "$2a$10$nCuNFqQGB57LuplsjMDCWeFimtkzxwadupwlIxnFX8UsL/5ZJCZPq",
+      "id": 6
+    },
+    {
+      "email": "123123123123123@naver.com",
+      "password": "$2a$10$BGn1sFW69IdGsauZqitslOKnK958mt5GKQmIARygE3yUV.V8dAqLO",
+      "id": 7
+    },
+    {
+      "email": "1@naver.com",
+      "password": "$2a$10$aDqzhdFUlsb5ZrwLJusK8.XASebPzNsLc3Ulbz5x7xDqZ3i3lPshG",
+      "id": 8
+    },
+    {
+      "email": "2@naver.com",
+      "password": "$2a$10$BTqdL3dEh3HnNaBFv0lHCOLFu7LAdTchJY9B5f.eC80/FKja8S2gq",
+      "id": 9
+    },
+    {
+      "email": "00@naver.com",
+      "password": "$2a$10$caMIbitAe5sWwGULdcQpCeYOd8/5V1EQ91B15vQDRRv3xf650hbP6",
+      "id": 10
+    },
+    {
+      "email": "1111@naver.com",
+      "password": "$2a$10$jg6o7XZ/p1csBDKyAJ.NOu7Bn.69CuwXJNFofYziUD4yQVULJWPQy",
+      "id": 11
+    },
+    {
+      "email": "00000@naver.com",
+      "password": "$2a$10$gGH32HkOt9T2YhWzq.dsjOMXu3HI0dXNrN2Nzq8Kghjja35.Ok0z.",
+      "id": 12
+    }
+  ]
+}

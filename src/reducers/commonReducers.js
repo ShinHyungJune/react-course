@@ -1,6 +1,11 @@
+import {getLocalToken, getLocalUser} from "../utils/auth";
+
+let user = getLocalUser();
+let token = getLocalToken();
+
 const initialState = { // 초기값
-	flash: null,
-	loading: false
+	user: user,
+	token: token
 };
 
 export default (state = initialState, action) => {
@@ -8,16 +13,16 @@ export default (state = initialState, action) => {
 		default:
 			return state;
 
-		case "SET_FLASH":
+		case "SET_USER":
 			return {
 				...state,
-				flash: action.payload
+				user: action.payload
 			};
 
-		case "SET_LOADING":
+		case "SET_TOKEN":
 			return {
 				...state,
-				loading: action.loading
+				token: action.payload
 			}
 	}
 }
