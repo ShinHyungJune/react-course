@@ -5,7 +5,8 @@ let token = getLocalToken();
 
 const initialState = { // 초기값
 	user: user,
-	token: token
+	token: token,
+	loading: false
 };
 
 export default (state = initialState, action) => {
@@ -23,6 +24,12 @@ export default (state = initialState, action) => {
 			return {
 				...state,
 				token: action.payload
+			};
+
+		case "SET_LOADING":
+			return {
+				...state,
+				loading: action.payload
 			}
 	}
 }

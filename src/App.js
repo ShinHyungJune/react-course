@@ -8,7 +8,9 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import AuthRoute from "./AuthRoute";
 import UserInfo from './UserInfo';
 
-function App() {
+window.store = store;
+
+const App = () => {
 
 	return (
 		<Provider store={store}>
@@ -23,6 +25,6 @@ function App() {
 
 		</Provider>
 	);
-}
+};
 
 export default App;

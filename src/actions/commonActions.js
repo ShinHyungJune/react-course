@@ -19,6 +19,16 @@ export const login = (user, token, onLogin) => {
 	}
 };
 
+export const setLoading = (data) => {
+	return (dispatch) => {
+		dispatch({
+			type: "SET_LOADING",
+			payload: data
+		});
+
+	}
+};
+
 export const logout = () => {
 	return (dispatch) => {
 		axios.post("/logout").then(response => {
